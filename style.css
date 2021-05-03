@@ -1,23 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 *{
     margin: 0;
     padding: 0;
-    /*box-sizing: border-box;*/
     text-decoration: none;
-    
+}
+.totalpage{
+    display: flex;
+    flex-direction: row;
 }
 .wrapper{
     display: flex;
+    background: rgba(224, 223, 223, 0.411);
+    height: 259vh;
 }
-
 .sidebar{
-    font-family: Roboto;
+    font-family: "Roboto";
     color: white;
 }
 .head{
     display: flex;
-    justify-content:center;
-    align-items: center;
     padding-bottom: 10px;
     border-bottom: 1px solid rgba(153, 153, 153, 0.459);
     cursor: pointer;
@@ -31,9 +33,9 @@
     color: white;
 }
 .sidebar{
-    height: 259vh;
     background: #031525;
-    width: 260px;
+    width: 250px;
+    height: auto;
     position: relative;
 }
 #firebase{
@@ -43,16 +45,17 @@
     font-weight: 500;
 }
 .sidebar ul{
+    padding: 0px;
     text-decoration: none;
     list-style: none;
     margin: 0px;
     color: white;
+    background:rgba(83, 83, 83, 0.3);
 }
 #build{
-    font-size: 25px;
+    font-size: 22px;
     padding: 15px 20px;
 }
-
 .sidebar ul {
     font-weight: 600;
     font-size: 24px;
@@ -61,6 +64,7 @@
 .sidebar ul li a{
     font-size: 16px;
     color: white;
+    text-decoration: none;
 }
 .slidebar ul ul{
     display: block;
@@ -71,17 +75,83 @@
 }
 .sidebar ul ul li:hover{
     background: rgba(255,255,255,0.2);
-    border-radius: 5px;
+    border-radius: 3px;
 }
 .projectoverview:hover{
     background: rgba(255,255,255,0.2);
-    border-radius: 5px;   
+    border-radius: 3px;   
 }
 #build:hover{
     background: rgba(255,255,255,0.2);
     border-radius: 5px;   
 }
+.sidebar ul li ul li a:active{
+    color: blue;
+}
+.sidebar ul li ul li a i:active{
+    color: blue;
+}
 
+
+
+/* .sidenav{
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index:1;
+    top:0;
+    left:0;
+    background: #031525;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+.sidenav a{
+    padding:6px 6px 6px 22px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    width: 100%;
+}
+.sidenav a:hover{
+    background: rgba(255,255,255,0.2);
+    border-radius: 5px;
+}
+.logohead{
+    margin-top: 0px;
+    display: flex;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(153, 153, 153, 0.459);
+    cursor: pointer;
+}
+.logohead img{
+    width: 60px;
+    height: 50px;
+}
+.logohead p{
+    font-family: Roboto;
+    font-size: 2.3em;    
+}
+.projectoverview{
+    border-bottom: 0.5px solid rgba(153, 153, 153, 0.459);
+    color: white;
+    display: flex;
+    margin: auto;
+}
+.spaceclass{
+    height: 8px;
+}
+.projectoverview .button:hover{
+    background:rgba(255,255,255,0.2);
+}
+#build{
+    font-size: 20px;
+    color: white;
+    padding-left: 20px;
+}
+.sidenav ul li a{
+    color: white;
+    font-size: 20px;
+} */
 
 .btn:hover{
     background-color:gray;
@@ -143,7 +213,7 @@ h1{
 }
 
 .des{
- /*padding: 3px;*/
+ padding: 5px;
  margin-top: -4px;
  text-align: center;
 
