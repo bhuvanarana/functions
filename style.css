@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    /*box-sizing: border-box;*/
+    text-decoration: none;
+    
+}
+.wrapper{
+    display: flex;
+}
+
+.sidebar{
+    font-family: Roboto;
+    color: white;
+}
+.head{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(153, 153, 153, 0.459);
+    cursor: pointer;
+}
+.head p{
+    font-family: Roboto;
+    font-size: 2.3em;    
+}
+.projectoverview{
+    border-bottom: 1px solid rgba(153, 153, 153, 0.459);
+    color: white;
+}
+.sidebar{
+    height: 259vh;
+    background: #031525;
+    width: 260px;
+    position: relative;
+}
+#firebase{
+    height: 18px;
+    margin-bottom: 20px;
+    margin-left: 12px;
+    font-weight: 500;
+}
+.sidebar ul{
+    text-decoration: none;
+    list-style: none;
+    margin: 0px;
+    color: white;
+}
+#build{
+    font-size: 25px;
+    padding: 15px 20px;
+}
+
+.sidebar ul {
+    font-weight: 600;
+    font-size: 24px;
+    display: block;
+}
+.sidebar ul li a{
+    font-size: 16px;
+    color: white;
+}
+.slidebar ul ul{
+    display: block;
+}
+.fas{
+    padding: 10px ;
+    color: white;
+}
+.sidebar ul ul li:hover{
+    background: rgba(255,255,255,0.2);
+    border-radius: 5px;
+}
+.projectoverview:hover{
+    background: rgba(255,255,255,0.2);
+    border-radius: 5px;   
+}
+#build:hover{
+    background: rgba(255,255,255,0.2);
+    border-radius: 5px;   
+}
+
+
+.btn:hover{
+    background-color:gray;
+  
+}
+
+#c {
+   text-align:center;
+   align-items:center;
+   width: 1250px;;
+   margin-top:5px
+
+}
+
+
+.icons ul{
+    display: flex;
+    margin-left: 900px;
+}
+.icons ul li{
+    list-style: none;
+    margin-right: 10px;
+}
+
+
+.p:hover{
+    background-color: #ebebeb;
+}
+
+
+.q:hover{
+    background-color: #ebebeb;
+}
+
+
+.r:hover{
+    background-color: #ebebeb;
+}
+
+.card{
+    display: inline-block;
+    box-shadow: 2px 2px 20px rgb(102, 100, 100);
+    border-radius: 5px; 
+   
+   }
+
+.image img{
+ width: 100%;
+ border-top-right-radius: 5px;
+ border-top-left-radius: 5px;
+ 
+
+
+}
+
+
+h1{
+ font-size: 20px;
+}
+
+.des{
+ /*padding: 3px;*/
+ margin-top: -4px;
+ text-align: center;
+
+ 
+       border-bottom-right-radius: 5px;
+ border-bottom-left-radius: 5px;
+}
+
+
+.footer{
+    height: 130px;
+    background-color:#e5eaf0;
+ 
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    width: 100%;
+  }
